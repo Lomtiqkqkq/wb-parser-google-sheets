@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",
+        "target": "ESNext",
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "moduleResolution": "NodeNext",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "skipLibCheck": true,
+        "noImplicitAny": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "downlevelIteration": true,
+        "lib": ["es5", "es6", "dom", "esnext.asynciterable"]
+    },
+    "include": [
+        "src/**/*.ts",
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.test.ts"
+    ]
+}
