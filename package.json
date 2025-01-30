@@ -12,7 +12,7 @@
     "format": "prettier --write src/**/*.js"
   },
   "keywords": [],
-  "author": "Chacki",
+  "author": "Lomti_qk",
   "license": "ISC",
   "description": "",
   "dependencies": {
